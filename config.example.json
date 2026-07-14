@@ -1,0 +1,7 @@
+{
+    "login_url": "https://your-company.my.salesforce.com",
+    "api_version": "63.0",
+    "username": "your.email@example.com",
+    "password": "YOUR_PASSWORD",
+    "security_token": "YOUR_SECURITY_TOKEN"
+}

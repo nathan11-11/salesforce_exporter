@@ -1,0 +1,18 @@
+-- Example Salesforce query
+--
+-- Replace this query with one that fits your Salesforce environment.
+-- The downloader will execute any valid SOQL query that returns:
+--
+--   VersionData
+--   FileExtension
+--
+-- Including ContentDocument.Title is recommended for meaningful filenames.
+
+SELECT
+    ContentDocumentId,
+    VersionData,
+    FileExtension,
+    ContentDocument.Title
+FROM ContentVersion
+WHERE IsLatest = TRUE
+LIMIT 25
