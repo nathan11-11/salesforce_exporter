@@ -1,0 +1,15 @@
+# Local credentials and downloaded Salesforce content
+config.json
+Downloads/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
